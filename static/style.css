@@ -1,0 +1,99 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 2px solid #007bff;
+}
+
+header h1 {
+    color: #007bff;
+    margin: 0;
+}
+
+/* Form Styling */
+.prediction-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Form Actions */
+.form-actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-actions button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-actions button:hover {
+    background-color: #0056b3;
+}
+
+/* Result Display */
+.result {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #e9f7ef;
+    border: 1px solid #d4edda;
+    border-radius: 4px;
+}
+
+.result h2 {
+    color: #155724;
+    margin: 0;
+}
